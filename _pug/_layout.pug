@@ -11,17 +11,17 @@ html(lang='en')
     meta(name='viewport',content='width=device-width, initial-scale=1, minimum-scale=1')
 
     meta(name='description', content=pageDescription)
-    meta(name='author', content='Its Mwitah')
+    meta(name='author', content='Mwitah Designs')
 
     if bodyClass == 'home'
-      title Its Mwitah
+      title Mwitah Designs
     else
-      title #{pageTitle} | Its Mwitah
+      title #{pageTitle} | Mwitah Designs
 
     link(rel='icon', href='/assets/images/favicon.png', sizes='any')
     link(rel='icon', href='/assets/images/favicon.svg', type='image/svg+xml')
 
-    link(rel='alternate', type='application/rss+xml', title='Lynn Fisher’s Thoughts Feeds', href='https://lynnandtonic.com/feed.xml')
+    link(rel='alternate', type='application/rss+xml', title='Mwitah Designs’s Thoughts Feeds', href='https://lynnandtonic.com/feed.xml')
 
     //- check light/dark mode
     script(type='text/javascript').
@@ -48,7 +48,7 @@ html(lang='en')
       else if bodyClass == 'home'
         meta(content='https://lynnandtonic.com', property='og:url')
         meta(content='https://lynnandtonic.com', property='twitter:url')
-        meta(content='Lynn Fisher', name='twitter:title', property='og:title')
+        meta(content='Mwitah Designs', name='twitter:title', property='og:title')
       else
         meta(content='https://lynnandtonic.com/' + pagePath, property='og:url')
         meta(content='https://lynnandtonic.com/' + pagePath, property='twitter:url')
